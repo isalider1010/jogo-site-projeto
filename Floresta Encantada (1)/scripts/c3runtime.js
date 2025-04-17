@@ -1296,12 +1296,10 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => and("", v0.GetValue());
 		},
-		() => -400,
 		() => "Morrendo",
 		() => 0.6,
-		() => "Direita",
-		() => "Esquerda",
-		() => "Pulando",
+		() => "direita",
+		() => "esquerda",
 		() => 0.7
 ];
 

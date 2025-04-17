@@ -7,9 +7,14 @@ const scriptsInEvents = {
 		runtime.goToLayout()
 	},
 
-	async ["FolhaDeEventosFase0.2_Event16_Act1"](runtime, localVars)
+	async ["FolhaDeEventosFase0.2_Event15_Act1"](runtime, localVars)
 	{
 		runtime.goToLayout("Final");
+	},
+
+	async ["FolhaDeEventosFase0.2_Event16_Act1"](runtime, localVars)
+	{
+		runtime.goToLayout("Game Over");
 	},
 
 	async ["FolhaDeEventosFase0.1_Event7_Act1"](runtime, localVars)

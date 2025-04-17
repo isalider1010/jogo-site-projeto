@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>Floresta Encantada</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Floresta Encantada</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Sobre</a></li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Galeria de Fotos</a></li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contato</a></li>
+                <li class="nav-item">
+                    <a href="#jogar" class="nav-link">Jogar</a></li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Floresta Encantada</h2>
+                    <h3 class="sutitle">"Recupere a magia da floresta e salve suas criaturas antes<br> que tudo seja perdido."</h3>
+                    <p class="description">
+                        Há muito tempo, a Floresta Encantada era um lugar cheio de vida, magia e harmonia.<br>
+                        Criaturas mágicas viviam em paz, protegidas pela energia da Árvore da Luz — a fonte de todo poder da floresta.<br>
+                        Mas um dia, uma força sombria surgiu das profundezas, corrompendo a magia e espalhando o caos.<br>
+                        A floresta começou a enfraquecer, suas criaturas fugiram, e a Árvore da Luz entrou em silêncio.<br><br>
+                        Agora, só resta uma esperança: VOCÊ.<br><br>
+                        Embarque nessa jornada mágica, enfrente perigos, resolva mistérios e recupere os fragmentos<br>
+                        da magia para salvar a floresta antes que seja tarde demais.
+                    </p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="imagens/meus-personagens.png.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapprr">
+                    <img src="imagens/personagem-circular.png" alt="About" class="about-img">
+                </div>
+               
+                <div class="about-details">
+                    <h2 class="section-title">Sobre o Jogo</h2>
+                    <p class="text">
+                        <strong>Floresta Encantada - A Jornada de Elara</strong><br><br>
+                        Na primeira fase, Elara enfrenta bichinhos rápidos, que se movem sem parar,<br>
+                        e precisa saltar entre plataformas traiçoeiras. Se cair, a missão acaba.<br>
+                        Cada movimento exige precisão, cada decisão, atenção. A floresta não perdoa.<br><br>
+                        Na segunda fase, ela encontra um minotauro feroz, guardião da pedra de luz.<br>
+                        Com coragem, Hilaria derrota o monstro e recupera a chave de luz,<br>
+                        o único caminho para restaurar a paz e salvar a floresta. O destino da floresta está em suas mãos.
+                    </p>
+                </div>
+               
+                <div class="about-details">
+                    <h2 class="section-title">Sobre a Criadora</h2>
+                    <p class="text">
+                        <strong>Isadora Rodrigues Soares</strong><br><br>
+                        Tenho 18 anos, moro em Campo Mourão no PR, faço TADS e trabalho na Maria Macia.
+                        No meu tempo livre gosto de ouvir música, assistir série e dormir,
+                        Foi desafiador fazer esse site, mas no final deu certo.
+                    </p>
+                </div>
+            
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Galeria</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="imagens/tela inicial.png" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="imagens/fase1.png" alt="Gallery" class="gallery-image"></li>
+                    <li class="gallery-item"><img src="imagens/printf1.png" alt="Gallery" class="gallery-image"></li>
+                    <li class="gallery-item"><img src="imagens/fase2.png" alt="Gallery" class="gallery-image"></li>
+                    <li class="gallery-item"><img src="imagens/captura-de-telafase2.png" alt="Gallery" class="gallery-image"></li>
+                </ul>
+            </div>
+        </section>
+
+        
+
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contato</h2>
+            <div class="section-content">
+                </ul>
+                <form id="form-contato" class="formulario-contato">
+
+                    <input type="text" id="nome" placeholder="Nome" class="form-input" required>
+                
+                    <input type="email" id="email" placeholder="E-mail" class="form-input" required>
+                    <small id="erro-email" style="color:black; display:none;">Email deve conter @</small>
+                
+                    <textarea placeholder="Mensagem" class="form-input" required></textarea>
+                
+                    <button type="submit" class="submit-button">Enviar</button>
+                
+                    <p id="mensagem" style="color: blue; display: none;">Formulário enviado</p>
+                </form>
+                
+            </div>
+        </section>
+
+
+
+
+        <footer class="footer-section">
+            <div class="section-content">
+                <img alt="Floresta Encantada" cl
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
